@@ -1,16 +1,41 @@
-# pokemon_green_cards
+# Pokémon Green Cards 🌿
 
-A new Flutter project.
+A Flutter application that displays **Grass-type Pokémon Trading Cards** fetched from the [Pokémon TCG API](https://pokemontcg.io/).  
+Users can browse card images with their names and tap any card to see a larger, zoomable version.  
 
-## Getting Started
+This project was created as part of a **Flutter mobile and web development lab**.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🧠 Use of Artificial Intelligence (AI)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+AI tools such as **OpenAI ChatGPT ** were used during the development of this project **for learning and productivity assistance only**.  
+AI was used to:
+- Help debug CORS and timeout issues when calling the Pokémon API.  
+- Provide code for automatic “offline fallback cards” to keep the app working when API access fails.  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> ⚠️ All AI-assisted code and text were reviewed, tested, and refined manually by the developer before inclusion.
+
+---
+
+## 🚀 Features
+- Fetches Pokémon TCG cards from an online API.  
+- Displays card images and names in a clean scrollable list.  
+- Enlarges card images on tap (with zoom support).  
+- Automatic offline fallback with 6 classic Grass cards (Bulbasaur → Bellsprout).  
+- Fully deployable as a **Flutter Web** app on GitHub Pages.
+
+---
+
+## 🧩 Tech Stack
+- **Framework:** Flutter 3.x  
+- **Language:** Dart  
+- **Packages:**
+  - `http` → API calls  
+  - `cached_network_image` → image caching  
+- **Deployment:** GitHub Pages  
+- **Assistance:** ChatGPT (for code generation and debugging)
+
+---
+
+## 📂 Project Structure
